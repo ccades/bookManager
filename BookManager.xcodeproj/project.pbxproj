@@ -28,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		6FA88E42C16D2D707F7DEB2F /* Pods_BookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B58B9FAB770558C4EDA8AB9 /* Pods-RealmDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDB.release.xcconfig"; path = "Target Support Files/Pods-RealmDB/Pods-RealmDB.release.xcconfig"; sourceTree = "<group>"; };
 		A7352B8C22E01B83000221F6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		A7A279F622E01C2C0025834B /* WishListBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListBook.swift; sourceTree = "<group>"; };
 		A7D5C4AC22E1194B006EBAFF /* BookPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPresenter.swift; sourceTree = "<group>"; };
@@ -49,7 +48,6 @@
 		A7F943F222E0078A00143AC6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		AE0F1AF87A79FF46FBF4B9A3 /* Pods-BookManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookManager.debug.xcconfig"; path = "Target Support Files/Pods-BookManager/Pods-BookManager.debug.xcconfig"; sourceTree = "<group>"; };
 		B6C5FBE32BF4654DAF355693 /* Pods-BookManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookManager.release.xcconfig"; path = "Target Support Files/Pods-BookManager/Pods-BookManager.release.xcconfig"; sourceTree = "<group>"; };
-		B7228AD24EBE509261595D1B /* Pods-RealmDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDB.debug.xcconfig"; path = "Target Support Files/Pods-RealmDB/Pods-RealmDB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +65,6 @@
 		86390D48B0DC04035F313533 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7228AD24EBE509261595D1B /* Pods-RealmDB.debug.xcconfig */,
-				9B58B9FAB770558C4EDA8AB9 /* Pods-RealmDB.release.xcconfig */,
 				AE0F1AF87A79FF46FBF4B9A3 /* Pods-BookManager.debug.xcconfig */,
 				B6C5FBE32BF4654DAF355693 /* Pods-BookManager.release.xcconfig */,
 			);
