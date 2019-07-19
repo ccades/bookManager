@@ -10,7 +10,7 @@ https://realm.io/products/realm-studio/
 
 Otherwise, in terminal, you can run:
 
-pod install
+> pod install
 
 From the root directory of the project to install needed pod files.
 
