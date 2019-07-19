@@ -1,6 +1,6 @@
 # Book Manager
 
-Book Manager is a simple two tab application where a user can search open library.org for books and add desired ones to a wish list.
+Book Manager is a simple two tab application where a user can search openlibrary.org for books and add desired ones to a wish list.
 
 ## Installation
 
