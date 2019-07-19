@@ -8,7 +8,7 @@ This project uses Realm and CocoaPods. If you would like to visualize your local
 
 https://realm.io/products/realm-studio/
 
-Otherwise, in terminal, you can run:
+Otherwise, if you have CocoaPods setup on your machine (https://guides.cocoapods.org/using/getting-started.html), in terminal, you can run:
 
 > pod install
 
