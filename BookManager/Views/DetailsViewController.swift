@@ -27,6 +27,8 @@ class DetailsViewController: UIViewController, BookViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        bookPresenter.presentSearchedBooks(query: BK_QUERY_WISH, param: "")
+        
         // conform to bookViewDelegate
         bookPresenter.setViewDelegate(bookViewDelegate: self)
         view.backgroundColor = .white

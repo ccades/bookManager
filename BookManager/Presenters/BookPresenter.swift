@@ -67,8 +67,16 @@ class BookPresenter {
     
     // add book
     func addBookToWishlist(book: Book) {
-        let wishListBook = convertBookToWishListBook(book: book)
-        bookService.addBook(book: wishListBook)
+        var hasBook = false
+        for bk in books {
+            if bk.bookKey == book.bookKey {
+                hasBook = true
+            }
+        }
+        if hasBook != true {
+            let wishListBook = convertBookToWishListBook(book: book)
+            bookService.addBook(book: wishListBook)
+        }
     }
     
     // remove book
